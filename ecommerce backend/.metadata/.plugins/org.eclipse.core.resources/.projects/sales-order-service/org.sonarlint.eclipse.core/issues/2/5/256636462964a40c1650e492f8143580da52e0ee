@@ -1,0 +1,15 @@
+
+~	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¹ÍÈþÿÿÿÿHóRMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ðÚý™HôRMINORZ
+CODE_SMELL
+l	java:S1252"<This block of commented-out lines of code should be removed.(ö÷ëùûÿÿÿÿHõRMAJORZ
+CODE_SMELL
+~	java:S100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°×îÆùÿÿÿÿH÷RMINORZ
+CODE_SMELL
+w
+java:S1128"DRemove this unused import 'com.example.salesOrder.model.SalesOrder'.(ø¡®ö8èú¢û³0HøRMINORZ
+CODE_SMELL
+f
+java:S1172@"5Remove this unused method parameter "createOrderDto".(°×îÆùÿÿÿÿHúRMAJORZ
+CODE_SMELL

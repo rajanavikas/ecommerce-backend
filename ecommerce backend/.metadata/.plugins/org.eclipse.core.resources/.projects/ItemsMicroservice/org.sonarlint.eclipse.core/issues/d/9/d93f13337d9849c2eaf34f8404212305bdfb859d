@@ -1,0 +1,20 @@
+
+c
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÏâžÛ³0HªRMINORZ
+CODE_SMELL
+z
+java:S1128"BRemove this unused import 'com.example.items.repository.ItemRepo'.(×ºØÕùÿÿÿÿ8­Û×Û³0H¦RMINORZ
+CODE_SMELL
+l	java:S125"<This block of commented-out lines of code should be removed.(óÅ‰ôþÿÿÿÿH®RMAJORZ
+CODE_SMELL
+r
+java:S1128":Remove this unused import 'com.example.items.model.Items'.(µ˜¾þÿÿÿÿ8ÏâžÛ³0H¬RMINORZ
+CODE_SMELL
+‹
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡ž¸Îùÿÿÿÿ8­Û×Û³0H¨RMINORZ
+CODE_SMELL
+s	java:S125%"<This block of commented-out lines of code should be removed.(Í¤íÞýÿÿÿÿ8ÌêÛ³0H›RMAJORZ
+CODE_SMELL
+z
+java:S1128"GRemove this unused import 'org.springframework.boot.CommandLineRunner'.(È—ÿÅ8ÏâžÛ³0H¯RMINORZ
+CODE_SMELL

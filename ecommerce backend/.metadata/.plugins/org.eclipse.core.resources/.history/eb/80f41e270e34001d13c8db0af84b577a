@@ -1,0 +1,46 @@
+package com.example.items.controller;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.items.dto.ItemListDto;
+//import com.example.customer.model.Customer;
+//import com.example.items.dto.ItemsDataDto;
+import com.example.items.model.Items;
+import com.example.items.service.ItemsService;
+
+@RestController
+public class ItemsController {
+	
+	@Autowired
+	private ItemsService itemsservice;
+	
+	@GetMapping(path="/check/item/{Itemname}")
+	public boolean checkItem(@PathVariable("Itemname") String itemname ) {
+        return itemsservice.checkItemService(itemname);
+	}
+	
+	@GetMapping(path="/items")
+	public ResponseEntity<List<Items>> getAllItems(){
+		return itemsservice.getAllItemsData();
+	}
+	
+	@GetMapping(path="/items/{itemName}")
+	public ResponseEntity<String> getItemData(@PathVariable("itemName") String itemName){
+		return new ResponseEntity<>(itemsservice.getIndividualItemData(itemName),HttpStatus.OK);
+	}
+	@PostMapping("/additems")
+	public ResponseEntity<List<Items>> addItems(@RequestBody ItemListDto itemListDto)
+	{
+		return null;
+	}
+}

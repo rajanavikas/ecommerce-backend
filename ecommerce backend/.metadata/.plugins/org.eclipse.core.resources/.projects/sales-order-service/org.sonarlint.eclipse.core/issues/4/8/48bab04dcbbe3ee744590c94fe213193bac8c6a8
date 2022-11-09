@@ -1,0 +1,26 @@
+
+K
+java:S2119""Save and re-use this "Random".(®ø»›þÿÿÿÿHóRCRITICALZBUG
+]
+java:S14811",Remove this unused "resItem" local variable.(„”øùúÿÿÿÿHîRMINORZ
+CODE_SMELL
+\
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒHðRMINORZ
+CODE_SMELL
+`
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëÝüÿÿÿÿHæRMINORZ
+CODE_SMELL
+v
+java:S1612D"EReplace this lambda with method reference 'ItemNameDto::getItemName'.(ìÂñÃÿÿÿÿÿHèRMINORZ
+CODE_SMELL
+l
+java:S18541";Remove this useless assignment to local variable "resItem".(„”øùúÿÿÿÿHôRMAJORZ
+CODE_SMELL
+`
+java:S1611D"/Remove the parentheses around the "x" parameter(ìÂñÃÿÿÿÿÿHíRMINORZ
+CODE_SMELL
+•
+java:S1488="dImmediately return this expression instead of assigning it to the temporary variable "orderDtoList".(˜Éª¶øÿÿÿÿHêRMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£Éž»ûÿÿÿÿHòRMINORZ
+CODE_SMELL

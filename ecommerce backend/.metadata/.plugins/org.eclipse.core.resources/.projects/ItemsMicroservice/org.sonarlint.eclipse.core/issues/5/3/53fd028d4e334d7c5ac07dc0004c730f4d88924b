@@ -1,0 +1,17 @@
+
+_
+java:S1602+",Remove useless curly braces around statement(›Ÿä8Ÿ›˜Û³0HÁRMINORZ
+CODE_SMELL
+
+java:S1488$"\Immediately return this expression instead of assigning it to the temporary variable "item".(«ş¡åÿÿÿÿÿHÂRMINORZ
+CODE_SMELL
+r
+java:S1126"AReplace this if-then-else statement by a single return statement.(¨¾ôóúÿÿÿÿHÅRMINORZ
+CODE_SMELL
+b
+java:S1611+"/Remove the parentheses around the "i" parameter(›Ÿä8Ÿ›˜Û³0HÆRMINORZ
+CODE_SMELL
+l	java:S125"<This block of commented-out lines of code should be removed.(îİ¸ÿÿÿÿÿHÇRMAJORZ
+CODE_SMELL
+	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ø‹ÆùÿÿÿÿHÈRMINORZ
+CODE_SMELL

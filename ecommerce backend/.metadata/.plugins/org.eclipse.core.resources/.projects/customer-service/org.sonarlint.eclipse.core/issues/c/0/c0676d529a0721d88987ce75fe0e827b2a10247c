@@ -1,0 +1,8 @@
+
+d	java:S106"9Replace this use of System.out or System.err by a logger.(•ğäÃH¿RMAJORZ
+CODE_SMELL
+w
+java:S4684-"@Replace this persistent entity with a simple POJO or DTO object.(˜ÒÜ¬üÿÿÿÿHÀRCRITICALZVULNERABILITY
+r
+java:S1126"AReplace this if-then-else statement by a single return statement.(ì¶•øÿÿÿÿHÁRMINORZ
+CODE_SMELL
